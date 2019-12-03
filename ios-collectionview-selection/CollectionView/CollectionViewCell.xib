@@ -33,18 +33,21 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8OZ-kQ-MWK">
-                        <rect key="frame" x="-66" y="-13" width="240" height="128"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8OZ-kQ-MWK">
+                        <rect key="frame" x="0.0" y="0.0" width="108" height="103"/>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="Gbu-gi-f6j" secondAttribute="trailing" id="5KT-nI-3Hm"/>
+                    <constraint firstAttribute="trailing" secondItem="8OZ-kQ-MWK" secondAttribute="trailing" id="7cT-ZG-0Lc"/>
                     <constraint firstItem="Gbu-gi-f6j" firstAttribute="top" secondItem="8Bh-PB-n0Q" secondAttribute="top" id="JEH-qi-vrP"/>
                     <constraint firstItem="Gbu-gi-f6j" firstAttribute="leading" secondItem="8Bh-PB-n0Q" secondAttribute="leading" id="YRs-bl-Prw"/>
                     <constraint firstItem="wwz-cu-Pot" firstAttribute="centerX" secondItem="8Bh-PB-n0Q" secondAttribute="centerX" id="Ypg-cM-4y7"/>
+                    <constraint firstItem="8OZ-kQ-MWK" firstAttribute="leading" secondItem="8Bh-PB-n0Q" secondAttribute="leading" id="n2F-pU-cr0"/>
                     <constraint firstItem="wwz-cu-Pot" firstAttribute="centerY" secondItem="8Bh-PB-n0Q" secondAttribute="centerY" id="ntb-Oy-OkV"/>
+                    <constraint firstItem="8OZ-kQ-MWK" firstAttribute="top" secondItem="8Bh-PB-n0Q" secondAttribute="top" id="q7d-0f-V07"/>
+                    <constraint firstAttribute="bottom" secondItem="8OZ-kQ-MWK" secondAttribute="bottom" id="rgb-xG-fj2"/>
                     <constraint firstAttribute="bottom" secondItem="Gbu-gi-f6j" secondAttribute="bottom" id="vGC-Av-HqH"/>
                 </constraints>
             </collectionViewCellContentView>

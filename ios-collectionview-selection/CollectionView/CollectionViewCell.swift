@@ -24,7 +24,7 @@ class CollectionViewCell: UICollectionViewCell {
         
         if useSelectedBackgroundView {
             let selectedBackgroundView = RectangleView()
-            selectedBackgroundView.fillColor = .clear
+            selectedBackgroundView.fillColor = nil
             selectedBackgroundView.borderColor = .systemRed
             selectedBackgroundView.borderWidth = 3
             self.selectedBackgroundView = selectedBackgroundView
