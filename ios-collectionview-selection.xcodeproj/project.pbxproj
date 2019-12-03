@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		5F68A4F623963A9B00CC9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F523963A9B00CC9B13 /* AppDelegate.swift */; };
 		5F68A4F823963A9B00CC9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F723963A9B00CC9B13 /* SceneDelegate.swift */; };
-		5F68A4FA23963A9B00CC9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F923963A9B00CC9B13 /* ViewController.swift */; };
-		5F68A4FD23963A9B00CC9B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F68A4FB23963A9B00CC9B13 /* Main.storyboard */; };
+		5F68A4FA23963A9B00CC9B13 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F923963A9B00CC9B13 /* CollectionViewController.swift */; };
 		5F68A4FF23963A9D00CC9B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F68A4FE23963A9D00CC9B13 /* Assets.xcassets */; };
 		5F68A50223963A9D00CC9B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F68A50023963A9D00CC9B13 /* LaunchScreen.storyboard */; };
+		5F68A50A23963CB400CC9B13 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A50923963CB400CC9B13 /* CollectionViewCell.swift */; };
+		5F68A50C23963CBF00CC9B13 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F68A50B23963CBF00CC9B13 /* CollectionViewCell.xib */; };
+		5F68A50E23963D9300CC9B13 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A50D23963D9300CC9B13 /* RectangleView.swift */; };
+		5F68A510239640DC00CC9B13 /* CollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A50F239640DC00CC9B13 /* CollectionElement.swift */; };
+		5F98131023964C15006CC9BD /* MenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F98130F23964C15006CC9BD /* MenuViewController.storyboard */; };
+		5F98131223964C64006CC9BD /* CollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F98131123964C64006CC9BD /* CollectionViewController.storyboard */; };
+		5F98131623964ECF006CC9BD /* TableViewSelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F98131523964ECF006CC9BD /* TableViewSelectionViewController.storyboard */; };
+		5F98131823964EDB006CC9BD /* TableViewSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98131723964EDB006CC9BD /* TableViewSelectionViewController.swift */; };
+		5F98131A23964F86006CC9BD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F98131923964F86006CC9BD /* TableViewCell.xib */; };
+		5F98131C23964F90006CC9BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98131B23964F90006CC9BD /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F68A4F223963A9B00CC9B13 /* ios-collectionview-selection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-collectionview-selection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F68A4F523963A9B00CC9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F68A4F723963A9B00CC9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F68A4F923963A9B00CC9B13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F68A4FC23963A9B00CC9B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F68A4F923963A9B00CC9B13 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		5F68A4FE23963A9D00CC9B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F68A50123963A9D00CC9B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F68A50323963A9D00CC9B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F68A50923963CB400CC9B13 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5F68A50B23963CBF00CC9B13 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		5F68A50D23963D9300CC9B13 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		5F68A50F239640DC00CC9B13 /* CollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionElement.swift; sourceTree = "<group>"; };
+		5F98130F23964C15006CC9BD /* MenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuViewController.storyboard; sourceTree = "<group>"; };
+		5F98131123964C64006CC9BD /* CollectionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewController.storyboard; sourceTree = "<group>"; };
+		5F98131523964ECF006CC9BD /* TableViewSelectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewSelectionViewController.storyboard; sourceTree = "<group>"; };
+		5F98131723964EDB006CC9BD /* TableViewSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSelectionViewController.swift; sourceTree = "<group>"; };
+		5F98131923964F86006CC9BD /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		5F98131B23964F90006CC9BD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,40 @@
 		5F68A4F423963A9B00CC9B13 /* ios-collectionview-selection */ = {
 			isa = PBXGroup;
 			children = (
+				5F98131423964EBB006CC9BD /* TableView */,
+				5F98131323964E91006CC9BD /* CollectionView */,
+				5F98130F23964C15006CC9BD /* MenuViewController.storyboard */,
 				5F68A4F523963A9B00CC9B13 /* AppDelegate.swift */,
 				5F68A4F723963A9B00CC9B13 /* SceneDelegate.swift */,
-				5F68A4F923963A9B00CC9B13 /* ViewController.swift */,
-				5F68A4FB23963A9B00CC9B13 /* Main.storyboard */,
 				5F68A4FE23963A9D00CC9B13 /* Assets.xcassets */,
 				5F68A50023963A9D00CC9B13 /* LaunchScreen.storyboard */,
 				5F68A50323963A9D00CC9B13 /* Info.plist */,
+				5F68A50D23963D9300CC9B13 /* RectangleView.swift */,
+				5F68A50F239640DC00CC9B13 /* CollectionElement.swift */,
 			);
 			path = "ios-collectionview-selection";
+			sourceTree = "<group>";
+		};
+		5F98131323964E91006CC9BD /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5F98131123964C64006CC9BD /* CollectionViewController.storyboard */,
+				5F68A4F923963A9B00CC9B13 /* CollectionViewController.swift */,
+				5F68A50B23963CBF00CC9B13 /* CollectionViewCell.xib */,
+				5F68A50923963CB400CC9B13 /* CollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		5F98131423964EBB006CC9BD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				5F98131523964ECF006CC9BD /* TableViewSelectionViewController.storyboard */,
+				5F98131723964EDB006CC9BD /* TableViewSelectionViewController.swift */,
+				5F98131923964F86006CC9BD /* TableViewCell.xib */,
+				5F98131B23964F90006CC9BD /* TableViewCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +168,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F98131223964C64006CC9BD /* CollectionViewController.storyboard in Resources */,
+				5F98131023964C15006CC9BD /* MenuViewController.storyboard in Resources */,
+				5F98131A23964F86006CC9BD /* TableViewCell.xib in Resources */,
+				5F98131623964ECF006CC9BD /* TableViewSelectionViewController.storyboard in Resources */,
 				5F68A50223963A9D00CC9B13 /* LaunchScreen.storyboard in Resources */,
 				5F68A4FF23963A9D00CC9B13 /* Assets.xcassets in Resources */,
-				5F68A4FD23963A9B00CC9B13 /* Main.storyboard in Resources */,
+				5F68A50C23963CBF00CC9B13 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F68A4FA23963A9B00CC9B13 /* ViewController.swift in Sources */,
+				5F68A510239640DC00CC9B13 /* CollectionElement.swift in Sources */,
+				5F98131C23964F90006CC9BD /* TableViewCell.swift in Sources */,
+				5F98131823964EDB006CC9BD /* TableViewSelectionViewController.swift in Sources */,
+				5F68A4FA23963A9B00CC9B13 /* CollectionViewController.swift in Sources */,
 				5F68A4F623963A9B00CC9B13 /* AppDelegate.swift in Sources */,
+				5F68A50A23963CB400CC9B13 /* CollectionViewCell.swift in Sources */,
+				5F68A50E23963D9300CC9B13 /* RectangleView.swift in Sources */,
 				5F68A4F823963A9B00CC9B13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +199,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F68A4FB23963A9B00CC9B13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F68A4FC23963A9B00CC9B13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F68A50023963A9D00CC9B13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
