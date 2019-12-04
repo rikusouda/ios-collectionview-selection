@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5F68A4F623963A9B00CC9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F523963A9B00CC9B13 /* AppDelegate.swift */; };
-		5F68A4F823963A9B00CC9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F723963A9B00CC9B13 /* SceneDelegate.swift */; };
 		5F68A4FA23963A9B00CC9B13 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68A4F923963A9B00CC9B13 /* CollectionViewController.swift */; };
 		5F68A4FF23963A9D00CC9B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F68A4FE23963A9D00CC9B13 /* Assets.xcassets */; };
 		5F68A50223963A9D00CC9B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F68A50023963A9D00CC9B13 /* LaunchScreen.storyboard */; };
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		5F68A4F223963A9B00CC9B13 /* ios-collectionview-selection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-collectionview-selection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F68A4F523963A9B00CC9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F68A4F723963A9B00CC9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F68A4F923963A9B00CC9B13 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		5F68A4FE23963A9D00CC9B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F68A50123963A9D00CC9B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 				5F98131323964E91006CC9BD /* CollectionView */,
 				5F98130F23964C15006CC9BD /* MenuViewController.storyboard */,
 				5F68A4F523963A9B00CC9B13 /* AppDelegate.swift */,
-				5F68A4F723963A9B00CC9B13 /* SceneDelegate.swift */,
 				5F68A4FE23963A9D00CC9B13 /* Assets.xcassets */,
 				5F68A50023963A9D00CC9B13 /* LaunchScreen.storyboard */,
 				5F68A50323963A9D00CC9B13 /* Info.plist */,
@@ -192,7 +189,6 @@
 				5F68A4F623963A9B00CC9B13 /* AppDelegate.swift in Sources */,
 				5F68A50A23963CB400CC9B13 /* CollectionViewCell.swift in Sources */,
 				5F68A50E23963D9300CC9B13 /* RectangleView.swift in Sources */,
-				5F68A4F823963A9B00CC9B13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ios-collectionview-selection/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ios-collectionview-selection/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
